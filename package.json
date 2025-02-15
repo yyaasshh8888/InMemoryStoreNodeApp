@@ -1,0 +1,19 @@
+{
+  "name": "inmemorystore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "nodemon dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/uniqid": "^5.3.4",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "uniqid": "^5.4.0"
+  }
+}
